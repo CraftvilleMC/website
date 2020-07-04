@@ -4,7 +4,7 @@
     <section class="text-gray-500 bg-gray-900 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-                <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+                <img class="object-cover object-center rounded" alt="hero" src="{{ url('img/screenshot1.png') }}">
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Welkom op craftville</h1>
@@ -24,24 +24,24 @@
             <div class="flex flex-wrap md:-m-2 -m-1">
                 <div class="flex flex-wrap w-1/2">
                     <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="{{ url('img/screenshot2.png') }}">
                     </div>
                     <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="{{ url('img/screenshot3.png') }}">
                     </div>
                     <div class="md:p-2 p-1 w-full">
-                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="{{ url('img/screenshot4.png') }}">
                     </div>
                 </div>
                 <div class="flex flex-wrap w-1/2">
                     <div class="md:p-2 p-1 w-full">
-                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="{{ url('img/screenshot5.png') }}">
                     </div>
                     <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="{{ url('img/screenshot6.png') }}">
                     </div>
                     <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="{{ url('img/screenshot7.png') }}">
                     </div>
                 </div>
             </div>
