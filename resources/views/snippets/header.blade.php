@@ -5,10 +5,8 @@
             <span class="ml-3 text-xl">Craftville</span>
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-white">First Link</a>
-            <a class="mr-5 hover:text-white">Second Link</a>
-            <a class="mr-5 hover:text-white">Third Link</a>
-            <a class="mr-5 hover:text-white">Fourth Link</a>
+            <a class="mr-5 hover:text-white" href="{{ url('/') }}">Home</a>
+            <a class="mr-5 hover:text-white" href="https://shop.craftville.nl">Shop</a>
         </nav>
     </div>
 </header>
